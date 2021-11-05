@@ -14,4 +14,8 @@ public class Intersection_of_line_segments {
         in.nextToken();
         return (int) in.nval;
     }
+    static String  nextString() throws IOException {
+        in.nextToken();
+        return  in.sval;
+    }
 }

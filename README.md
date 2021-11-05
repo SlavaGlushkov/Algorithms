@@ -2,9 +2,10 @@
 Algorithms Repository
 This is a repository for algorithms Java realisation to have them on board wherever I'm.
 
+Это все документация для файла HelpForStudents.java который находится здесь же.
 #### 1. NOD & NOK
 **Пример команды НОД**  
-`NOD(30, 5);`  
+`NOD(30, 5);`
 
 **Пример команды НОК:**   
 `NOK(NOD(30, 5), 30, 5);`                                             
@@ -12,13 +13,13 @@ This is a repository for algorithms Java realisation to have them on board where
 **Описание:** находит НОК и НОД чисел.
 ___
 
-#### 2. Треугольные числа                   
+#### 2. Треугольные числа
 **Пример команды:**                    
 `triangle_numbers(4);`   
 В качестве аргумента используется чисел a (**Все Аргументы типа `long`**).  
 **Описание:** находит треугольное число для переданного числа.
 На картинке изображен пример этих чисел.
-![img.png](https://studfile.net/html/2706/597/html_Zl_7bAi3sg.sBbI/img-82JDxZ.png) 
+![img.png](https://studfile.net/html/2706/597/html_Zl_7bAi3sg.sBbI/img-82JDxZ.png)
 ___
 
 #### 3. Факториал
@@ -34,3 +35,11 @@ ___
 `fib(4);`   
 В качестве аргумента используется число a (**Все Аргументы типа `long`**).  
 **Описание:** находит число фибоначчи под номером переданного числа.
+
+---
+
+#### 5. Сортировка Bubble
+**Пример команды:**                    
+`bubbleSort(array[]);`   
+В качестве аргумента используется массив типа int.  
+**Описание:** сортирует массив техникой сортировки Bubble.

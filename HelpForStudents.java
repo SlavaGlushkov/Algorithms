@@ -9,7 +9,7 @@ public class HelpForStudents {
         else{return triangle_numbers(t - 1) + t;}
     }
 
-    public static int fact(int num) {
+    public static long fact(long num) {
         int fact = 1;
         for (int i = 1; i < num + 1; i++) {
             fact *= i;

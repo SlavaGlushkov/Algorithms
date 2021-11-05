@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Hlp {
+public class HelpForStudents {
     public static void main(String[] args) {
 
     }

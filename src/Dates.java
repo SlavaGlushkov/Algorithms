@@ -16,7 +16,7 @@ public class Dates {
         System.out.println(date);
         System.out.println(date1);
         System.out.println(date2);
-        System.out.println("Метод getTime: " + date2.getTime());
+        System.out.println("Print Date: " + date2);
         System.out.println(date2.getHours());
         Calendar calendar = new GregorianCalendar();
         System.out.println(calendar.getTime());
@@ -52,6 +52,8 @@ public class Dates {
         Date date3 = calendar1.getTime();
         System.out.println(formater.format(date5));
         System.out.println(formater.format(date3));
+        Calendar calendar3 = toCalendar(date);
+        System.out.println("Напечатать календарь из даты: " + calendar3.getTime());
     }
     static void takeLunch(Date date) {
         DateFormat dateFormat = new SimpleDateFormat("EEEE", Locale.ENGLISH);
@@ -75,6 +77,11 @@ public class Dates {
                 break;
 //            ...и так далее до конца
         }
+    }
+    public static Calendar toCalendar(Date date){
+        Calendar cal = new GregorianCalendar();
+        cal.setTime(date);
+        return cal;
     }
     enum DayOfWeek {
             SUNDAY,

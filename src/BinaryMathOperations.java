@@ -6,18 +6,22 @@ public class BinaryMathOperations {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(bufferedReader.readLine());
-        System.out.println(String.format("%032d", Integer.parseInt(Integer.toBinaryString(a))));
+        System.out.println(String.format("%033d", Integer.parseInt(Integer.toBinaryString(a))));
         System.out.println(Integer.toBinaryString(-a-1));
         String s = Integer.toBinaryString(-a-1);
         //String s3 = Integer.toBinaryString(-a-1, 3);
         int b = Integer.parseInt(Integer.toBinaryString(a), 3);
+        int c = Integer.parseInt("120", 3);
         System.out.println(b);
-        System.out.println();
+        System.out.println(c);
         System.out.println(Integer.toBinaryString(2));
         System.out.println(Integer.toBinaryString(1));
         System.out.println(Integer.toBinaryString(0));
         System.out.println(Integer.toBinaryString(-1));
         System.out.println(Integer.toBinaryString(-2));
+        char [] chars = {'h', 'e', 'l', 'l', 'o', };
+        System.out.println(new String(chars));
+        char [] chars1 = "hello".toCharArray();
     }
     public class ObjectForQuickBinaryOperations {
         int number;

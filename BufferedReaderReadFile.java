@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Intersection_of_line_segments {
+public class BufferedReaderReadFile {
     static StreamTokenizer in;
     static int[][] array;
     public static void main(String[] args) throws IOException {

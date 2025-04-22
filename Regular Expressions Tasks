@@ -1,0 +1,20 @@
+
+[ns]a.\.xls
+1 ЗАДАНИЕ. Файл должен иметь первую букву 'n' или 's' вторую букву 'a' потом точку и должен иметь расширение xls
+sales1.xls
+order3.xls
+sales2.xls
+sales3.xls
+apac1.xls
+europe2.xls
+na1.xls
+na2.xls
+sa1.xls
+cal.xl
+
+[Rr]eg[Ee]x
+2 ЗАДАНИЕ 2
+Найти только слова RegEx regex, но не REGEX
+The phrase "regular expression" is often abreviated as RegEx,  REGEX or regex
+
+3. Задание 3 как первое, но не должен найти цифру на третьей букве названия файла
